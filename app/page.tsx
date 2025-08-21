@@ -803,10 +803,10 @@ export default function ProcobizWebsite() {
                 </li>
                 <li>
                   <button
-                    onClick={() => scrollToSection("values")}
+                    onClick={() => scrollToSection("testimonials")}
                     className="text-gray-400 hover:text-white transition-colors"
                   >
-                    Core Values
+                    Testimonials
                   </button>
                 </li>
                 <li>
