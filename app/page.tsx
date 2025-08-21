@@ -57,6 +57,12 @@ export default function ProcobizWebsite() {
 
   const services = [
     {
+      icon: <ShoppingCart className="h-8 w-8" />,
+      title: "Procurement Services",
+      description:
+        "End-to-end procurement of goods, works, consulting and non-consulting services with expertise and efficiency.",
+    },
+    {
       icon: <BarChart3 className="h-8 w-8" />,
       title: "Business Analysis and Consultancy",
       description:
@@ -87,28 +93,22 @@ export default function ProcobizWebsite() {
         "Identify, assess, and mitigate business risks through comprehensive risk management strategies and frameworks.",
     },
     {
+      icon: <FileSignature className="h-8 w-8" />,
+      title: "Contract Administration and Management",
+      description:
+        "Professional contract administration and management services to ensure compliance and optimal outcomes.",
+    },
+    {
       icon: <Globe className="h-8 w-8" />,
       title: "Research (Business and Academics)",
       description:
         "Conduct thorough business and academic research to provide evidence-based insights and recommendations.",
     },
     {
-      icon: <ShoppingCart className="h-8 w-8" />,
-      title: "Procurement Services",
-      description:
-        "End-to-end procurement of goods, works, consulting and non-consulting services with expertise and efficiency.",
-    },
-    {
       icon: <Server className="h-8 w-8" />,
       title: "Electronic Procurement Administration",
       description:
         "Modern electronic procurement solutions and traditional manual procurement administration services.",
-    },
-    {
-      icon: <FileSignature className="h-8 w-8" />,
-      title: "Contract Administration and Management",
-      description:
-        "Professional contract administration and management services to ensure compliance and optimal outcomes.",
     },
     {
       icon: <Briefcase className="h-8 w-8" />,
@@ -822,13 +822,13 @@ export default function ProcobizWebsite() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Our Services</h4>
               <ul className="space-y-2 text-gray-400 text-sm">
+                <li>Procurement Services</li>
                 <li>Business Analysis & Consultancy</li>
                 <li>Data Analytics & Prediction</li>
                 <li>Business & Marketing Plans</li>
                 <li>Corporate Governance</li>
                 <li>Risk Management</li>
                 <li>Research Services</li>
-                <li>Procurement Services</li>
                 <li>Contract Management</li>
                 <li>Logistics & Transport</li>
               </ul>
