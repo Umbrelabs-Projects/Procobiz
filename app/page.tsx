@@ -769,9 +769,7 @@ export default function ProcobizWebsite() {
                 <span className="text-2xl font-bold">Procobiz</span>
               </div>
               <p className="text-gray-400 mb-4 max-w-md">
-                Empowering Businesses and Individuals to apply home-made
-                business solutions to problems and self-regulate for continuous
-                successes.
+                Your business success, our concern.
               </p>
             </div>
             <div>
