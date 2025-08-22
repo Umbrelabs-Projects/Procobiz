@@ -367,9 +367,11 @@ export default function ProcobizWebsite() {
               About Procobiz
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We are trusted top-notch Business Analysts and Consultants
-              dedicated to offering innovative, customized and workable
-              solutions.
+              We are PGCL; Procobiz Global Consult Limited. A global Procurement
+              and Business Consult established to empower Businesses Procurement
+              Functions and Individuals to apply customized or tailor-made
+              solutions to their organizations for continuous growth and success
+              across the world of work.
             </p>
           </div>
 
@@ -384,16 +386,6 @@ export default function ProcobizWebsite() {
                     Vision Statement
                   </h4>
                   <p className="text-gray-600">
-                    Empowering Businesses and Individuals to apply home-made
-                    business solutions to problems and self-regulate for
-                    continuous successes.
-                  </p>
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold text-blue-600 mb-2">
-                    Mission Statement
-                  </h4>
-                  <p className="text-gray-600">
                     To become trusted top-notch Business Analysts and
                     Consultants in Ghana and world-wide to offer innovative,
                     customized and workable solutions through research,
@@ -402,11 +394,24 @@ export default function ProcobizWebsite() {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-blue-600 mb-2">
+                    Mission Statement
+                  </h4>
+                  <p className="text-gray-600">
+                    Empowering Businesses and Individuals to apply home-made
+                    business solutions to problems and self-regulate for
+                    continuous successes.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-blue-600 mb-2">
                     Broad Objective
                   </h4>
                   <p className="text-gray-600">
                     To help businesses innovate, and operate with adaptable
-                    unique ideas to become more profitable.
+                    unique ideas to become more profitable. Our team of
+                    experienced network of Professional Partners are dedicated
+                    to supporting the growth of businesses and their procurement
+                    functions to thrive to serve our societies well.
                   </p>
                 </div>
               </div>
@@ -466,8 +471,12 @@ export default function ProcobizWebsite() {
               Our Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive business solutions designed to drive growth,
-              efficiency, and success across all aspects of your organization.
+              Are you curious about how we can assist in elevating your BUSINESS
+              to success and/or improve your procurement activities to ensure
+              value addition? We offer an initial consultation where we will
+              discuss your perculiar needs and potential strategies. This
+              no-obligation session lets you explore our offerings before making
+              any commitments.
             </p>
           </div>
 
@@ -605,8 +614,10 @@ export default function ProcobizWebsite() {
               Get In Touch
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ready to transform your business? Contact us today to discuss how
-              we can help you achieve your goals.
+              Partner with us to strategise for home-made solutions to grow your
+              company and or improve your procurment fuctional skills/activities
+              to world class level. Ready to transform your business? Contact us
+              today to discuss how we can help you achieve your goals.
             </p>
           </div>
 
@@ -699,9 +710,7 @@ export default function ProcobizWebsite() {
                   Business Hours
                 </h4>
                 <div className="space-y-2 text-gray-600">
-                  <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                  <p>Saturday: 9:00 AM - 2:00 PM</p>
-                  <p>Sunday: Closed</p>
+                  <p>Monday - Sunday: 24/7</p>
                 </div>
               </div>
 
@@ -710,20 +719,25 @@ export default function ProcobizWebsite() {
                   Follow Us
                 </h4>
                 <div className="flex space-x-4">
+                  {/* Facebook */}
                   <Link
-                    href="#"
+                    href="https://www.facebook.com/franklin.oppongamankwah/"
                     className="text-gray-400 hover:text-blue-600 transition-colors"
                   >
+                    {" "}
                     <svg
                       className="h-6 w-6"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                    </svg>
+                      {" "}
+                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />{" "}
+                    </svg>{" "}
                   </Link>
+
+                  {/* LinkedIn */}
                   <Link
-                    href="#"
+                    href="https://www.linkedin.com/in/franklin-oppong-amankwah-mcips-mgips-cmilt-mba-0200657112/"
                     className="text-gray-400 hover:text-blue-600 transition-colors"
                   >
                     <svg
@@ -734,8 +748,10 @@ export default function ProcobizWebsite() {
                       <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                     </svg>
                   </Link>
+
+                  {/* Instagram */}
                   <Link
-                    href="#"
+                    href="https://www.instagram.com/franklinoppongamankwah/"
                     className="text-gray-400 hover:text-blue-600 transition-colors"
                   >
                     <svg
@@ -743,7 +759,7 @@ export default function ProcobizWebsite() {
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.054 1.97.24 2.427.403a4.92 4.92 0 0 1 1.788 1.161 4.92 4.92 0 0 1 1.161 1.788c.163.457.349 1.257.403 2.427.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.054 1.17-.24 1.97-.403 2.427a4.92 4.92 0 0 1-1.161 1.788 4.92 4.92 0 0 1-1.788 1.161c-.457.163-1.257.349-2.427.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.054-1.97-.24-2.427-.403a4.92 4.92 0 0 1-1.788-1.161 4.92 4.92 0 0 1-1.161-1.788c-.163-.457-.349-1.257-.403-2.427C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.054-1.17.24-1.97.403-2.427a4.92 4.92 0 0 1 1.161-1.788A4.92 4.92 0 0 1 5.585 1.76c.457-.163 1.257-.349 2.427-.403C9.278 1.3 9.658 1.288 12 1.288m0-1.288C8.741 0 8.332.012 7.052.07 5.78.128 4.913.308 4.267.533a6.92 6.92 0 0 0-2.482 1.623A6.92 6.92 0 0 0 .162 4.638c-.225.646-.405 1.513-.463 2.785C-.012 8.703 0 9.112 0 12s.012 3.297.07 4.577c.058 1.272.238 2.139.463 2.785a6.92 6.92 0 0 0 1.623 2.482 6.92 6.92 0 0 0 2.482 1.623c.646.225 1.513.405 2.785.463C8.703 23.988 9.112 24 12 24s3.297-.012 4.577-.07c1.272-.058 2.139-.238 2.785-.463a6.92 6.92 0 0 0 2.482-1.623 6.92 6.92 0 0 0 1.623-2.482c.225-.646.405-1.513.463-2.785.058-1.28.07-1.689.07-4.577s-.012-3.297-.07-4.577c-.058-1.272-.238-2.139-.463-2.785a6.92 6.92 0 0 0-1.623-2.482A6.92 6.92 0 0 0 19.362.533c-.646-.225-1.513-.405-2.785-.463C15.297.012 14.888 0 12 0zM12 5.838a6.162 6.162 0 1 0 0 12.324A6.162 6.162 0 0 0 12 5.838zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z" />
                     </svg>
                   </Link>
                 </div>
