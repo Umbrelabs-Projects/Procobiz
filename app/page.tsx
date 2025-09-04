@@ -194,13 +194,12 @@ export default function ProcobizWebsite() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
               <Image
-                src="/corporate-logo-p.png"
+                src="/procobiz-logo-black.png"
                 alt="Procobiz Logo"
-                width={40}
+                width={110}
                 height={40}
                 className="rounded"
               />
-              <span className="text-2xl font-bold text-gray-900">Procobiz</span>
             </div>
 
             {/* Desktop Navigation */}
@@ -776,13 +775,13 @@ export default function ProcobizWebsite() {
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
                 <Image
-                  src="/corporate-logo-p.png"
+                  src="/procobiz-logo-white.png"
                   alt="Procobiz Logo"
-                  width={40}
+                  width={110}
                   height={40}
                   className="rounded"
                 />
-                <span className="text-2xl font-bold">Procobiz</span>
+                {/* <span className="text-2xl font-bold">Procobiz</span> */}
               </div>
               <p className="text-gray-400 mb-4 max-w-md">
                 Your business success, our concern.
