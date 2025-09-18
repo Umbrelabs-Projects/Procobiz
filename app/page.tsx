@@ -317,14 +317,14 @@ export default function ProcobizWebsite() {
               <Badge className="mb-4 bg-blue-100 text-blue-800 hover:bg-blue-200">
                 Trusted Business Solutions Provider
               </Badge>
-              <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-                Empowering Businesses with
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                Empowering Businesses and Procurement Functions with
                 <span className="text-blue-600"> Home-made Solutions</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Helping businesses innovate and operate with adaptable unique
-                ideas to become more profitable through research, collaboration,
-                training, monitoring and evaluation.
+                Helping businesses and procurement handlers innovate and operate
+                with adaptable unique ideas to become more profitable through
+                research, collaboration, training, monitoring and evaluation.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -367,10 +367,10 @@ export default function ProcobizWebsite() {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We are PGCL; Procobiz Global Consult Limited. A global Procurement
-              and Business Consult established to empower Businesses Procurement
-              Functions and Individuals to apply customized or tailor-made
-              solutions to their organizations for continuous growth and success
-              across the world of work.
+              and Business Consult established to empower Businesses and
+              Procurement Functions and Individuals to apply customized or
+              tailor-made solutions to their organizations for continuous growth
+              and success across the world of work.
             </p>
           </div>
 
@@ -385,10 +385,10 @@ export default function ProcobizWebsite() {
                     Vision Statement
                   </h4>
                   <p className="text-gray-600">
-                    To become trusted top-notch Business Analysts and
-                    Consultants in Ghana and world-wide to offer innovative,
-                    customized and workable solutions through research,
-                    collaboration, training, monitoring and evaluation.
+                    To become a trusted top-notch Procurement, Business Analysts
+                    and Consultant in Ghana and world-wide to offer innovative,
+                    customized and workable solutions to grow businesses, and
+                    develop procurement functions.
                   </p>
                 </div>
                 <div>
@@ -396,9 +396,11 @@ export default function ProcobizWebsite() {
                     Mission Statement
                   </h4>
                   <p className="text-gray-600">
-                    Empowering Businesses and Individuals to apply home-made
-                    business solutions to problems and self-regulate for
-                    continuous successes.
+                    Empowering Businesses, Procurement functions and individuals
+                    to apply home-made business solutions to problems and
+                    self-regulate for continuous successes through research,
+                    collaboration, training, mentoring, monitoring, and
+                    evaluation
                   </p>
                 </div>
                 <div>
@@ -406,11 +408,12 @@ export default function ProcobizWebsite() {
                     Broad Objective
                   </h4>
                   <p className="text-gray-600">
-                    To help businesses innovate, and operate with adaptable
-                    unique ideas to become more profitable. Our team of
-                    experienced network of Professional Partners are dedicated
-                    to supporting the growth of businesses and their procurement
-                    functions to thrive to serve our societies well.
+                    To help businesses and procurement functions or individuals
+                    innovate, and operate with adaptable unique ideas to become
+                    more profitable. Our team of experienced network of
+                    Professional Partners are dedicated to supporting the growth
+                    of businesses and their procurement functions to thrive to
+                    serve our societies well.
                   </p>
                 </div>
               </div>
@@ -502,6 +505,7 @@ export default function ProcobizWebsite() {
             ))}
           </div>
         </div>
+        
       </section>
 
       {/* Testimonials Section */}
