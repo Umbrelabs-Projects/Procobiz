@@ -429,7 +429,7 @@ export default function ProcobizWebsite() {
             </div>
           </div>
 
-          {/* Core Values Section */}
+          {/* Core Values Section
           <div id="values" className="text-center mb-16">
             <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Core Values - GRAPLE
@@ -461,7 +461,7 @@ export default function ProcobizWebsite() {
                 </CardContent>
               </Card>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
