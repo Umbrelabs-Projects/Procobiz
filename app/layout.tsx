@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description:
     "A business consulting firm intended to help organizations\
      achieve their full potential. Online presence created by Techbox",
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
