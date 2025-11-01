@@ -699,7 +699,7 @@ export default function ProcobizWebsite() {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="h-6 w-6 text-blue-600" />
-                    <span className="text-gray-600">info@procobiz.com</span>
+                    <span className="text-gray-600">contact@procobiz.com</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="h-6 w-6 text-blue-600" />
