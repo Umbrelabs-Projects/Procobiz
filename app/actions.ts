@@ -31,15 +31,20 @@ export async function submitContactForm(prevState: any, formData: FormData) {
     const transporter = nodemailer.createTransport({
       host: process.env.EMAIL_HOST,
       port: Number(process.env.EMAIL_PORT),
-      secure: true,
+      secure: process.env.EMAIL_SECURE === "true",
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
+      authMethod: "PLAIN",
+      tls: {
+        // Do not fail on invalid certs (common for cPanel self-signed certs)
+        rejectUnauthorized: false,
+      },
     });
 
     const mailOptions = {
-      from: `"Procobiz Contact Form" <${process.env.EMAIL_TO}>`,
+      from: `"Procobiz Contact Form" <${process.env.EMAIL_USER}>`,
       replyTo: `${firstName} ${lastName} <${email}>`,
       to: process.env.EMAIL_TO,
       subject: `📨: New Submission from ${firstName} ${lastName}`,
@@ -52,7 +57,7 @@ export async function submitContactForm(prevState: any, formData: FormData) {
     <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <tr>
         <td style="background-color: #007BFF; padding: 20px; text-align: center; color: #ffffff;">
-          <img src="procobiz.com/procobiz-logo-black.png" alt="Procobiz Logo" style="height: 40px; margin-bottom: 8px;" />
+          <img src="https://procobiz.com/procobiz-logo-black.png" alt="Procobiz Logo" style="height: 40px; margin-bottom: 8px;" />
           <h1 style="margin: 0; font-size: 20px;">New Message 📨</h1>
         </td>
       </tr>
@@ -82,7 +87,7 @@ export async function submitContactForm(prevState: any, formData: FormData) {
     };
 
     const feedbackOptions = {
-      from: `"Procobiz" <${process.env.EMAIL_TO}>`,
+      from: `"Procobiz" <${process.env.EMAIL_USER}>`,
       to: email,
       subject: "We’ve received your message — Procobiz Support",
       html: `
@@ -94,7 +99,7 @@ export async function submitContactForm(prevState: any, formData: FormData) {
     <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
       <tr>
         <td style="background-color: #007BFF; padding: 20px; text-align: center; color: #ffffff;">
-          <img src="procobiz.com/procobiz-logo-black.png" alt="Procobiz Logo" style="height: 40px; margin-bottom: 8px;" />
+          <img src="https://procobiz.com/procobiz-logo-black.png" alt="Procobiz Logo" style="height: 40px; margin-bottom: 8px;" />
           <h2 style="margin: 0; font-size: 20px;">Thank you for contacting Procobiz</h2>
         </td>
       </tr>
