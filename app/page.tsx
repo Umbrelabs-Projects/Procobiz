@@ -186,6 +186,141 @@ export default function ProcobizWebsite() {
     },
   ];
 
+  const teamMembers = [
+    {
+      name: "Dr. Franklin Oppong-Amankwah",
+      credentials: "FCBAC, MCIPS, CMILT, MGiPS, MBA",
+      role: "Executive Director / Managing Director, Lead Consultant",
+      summary:
+        "Strategic Procurement and Supply Chain Executive with over 16 years of senior leadership experience in public sector procurement management, institutional transformation, and business consultancy. Recognized for championing Ghana's Electronic Procurement System (GHANEPS).",
+      expertise: [
+        "Public Sector Procurement Leadership",
+        "Electronic Procurement (GHANEPS)",
+        "Contract & Tender Governance",
+        "Strategic Sourcing & Cost Optimization",
+        "Institutional Capacity Building",
+        "Risk Management",
+      ],
+      affiliations: ["Fellow – ICBAC", "MCIPS (CIPS-UK)", "CMILT (CILT-UK)", "MGiPS (GIPS-GH)"],
+      honors: [
+        "Best Student Award – Business Analysis & Consultancy (ICBAC, 2024)",
+        "Champion of GHANEPS Implementation – Public Procurement Authority",
+        "Certificate of Excellence – Electronic Procurement (GHANEPS)",
+      ],
+      contact: {
+        email: "executivedirector@procobiz.com",
+        phone: "+233 200 657 112",
+      },
+      color: "blue",
+    },
+    {
+      name: "Emmanuel Nortey",
+
+      credentials: "MCIPS, Doctoral Fellow – ICBAC",
+      role: "Supply Chain Executive & Data/AI-Driven Business Strategist",
+      summary:
+        "Commercially astute and transformational Supply Chain Executive with over 24 years of experience across Telecom, FMCG, Energy, and Mining sectors, managing complex operations and multi-country portfolios exceeding USD 600 million annually. Proven ability to digitize processes, deploy predictive models, and design intelligent supplier segmentation frameworks, enhancing both cost savings and risk management.",
+      expertise: [
+        "Supply Chain Transformation",
+        "Procurement Strategy & Category Management",
+        "Data Analysis (Python, Power BI, Power Query)",
+        "Machine Learning in Supply Chain",
+        "Process Automation & Digital Transformation",
+        "Supplier Segmentation (AI/ML-Driven)",
+      ],
+      affiliations: ["MCIPS – CIPS, UK", "Doctoral Fellow – ICBAC, Ghana", "Associate – Big Data Analytics, Ambeone Institute (Dubai)", "MIT IDSS Data Science & ML"],
+      honors: [
+        "Delivered 15–25% cost savings across multiple countries",
+        "Managed portfolios, large-scale sourcing, and contract negotiations",
+        "Led AI-driven supply chain automation initiatives",
+      ],
+      contact: null,
+      color: "blue",
+    },
+    {
+      name: "Dr. Kenneth Asiamah Appah",
+      credentials: "PhD (Management), MCILT",
+      role: "Director, Managing Partner & Facilitator",
+      summary:
+        "Senior Lecturer in Procurement and Supply Chain at Koforidua Technical University with a PhD in Management from Universiti Putra Malaysia. Extensive experience in academic facilitation, department leadership, and published research across supply chain and procurement fields.",
+      expertise: [
+        "Procurement & Supply Chain Management",
+        "Academic Research & Facilitation",
+        "Institutional Governance",
+        "Supply Chain Resilience",
+        "Cold Chain & Pharmaceutical Supply",
+        "Information & Communication Technology in Procurement",
+      ],
+      affiliations: ["MCILT – Chartered Institute of Logistics and Transport", "Associate Member – Ghana Institute of Procurement and Supply (AGIPS)"],
+      honors: [
+        "Published in Commonwealth Journal of Academic Research",
+        "Published in European Journal of Business and Management",
+        "Board Member – Faculty of Business and Management Studies (KTU)",
+      ],
+      contact: {
+        email: null,
+        phone: "+233 203 800 228",
+      },
+      color: "blue",
+    },
+    {
+      name: "Addo Samuel",
+      credentials: "MSc (Procurement & Supply Chain, Awaiting Certificate)",
+      role: "Procurement Officer – Sourcing and Contracts",
+      summary:
+        "Procurement and Supply Chain professional with over 7 years of experience supporting public sector procurement operations. Skilled in tendering processes, contract management, supplier coordination, and electronic procurement systems (GHANEPS). Proven ability to support efficient procurement planning, ensure compliance, and contribute to transparent and accountable procurement processes. Adaptable to government, NGO, private sector, and international development environments.",
+      expertise: [
+        "Procurement Planning & Tendering",
+        "Contract Management & Administration",
+        "GHANEPS (E-Procurement System)",
+        "Public Procurement Compliance (Act 663)",
+        "Data Analysis (SPSS, AMOS)",
+        "Monitoring & Evaluation Support",
+      ],
+      affiliations: ["BTech & MSc – Koforidua Technical University", "Member – Procurement & Supply Science Students Association"],
+      honors: [
+        "Supported major tender evaluations at KTU Procurement Directorate",
+        "Ensured institutional compliance with Public Procurement Act",
+      ],
+      contact: {
+        email: null,
+        phone: "+233 549 571 322",
+      },
+      color: "blue",
+    },
+    {
+      name: "Mr. Thomas Kojo Bondzi",
+      credentials: "MCIPS, MSc (Procurement & Supply Chain)",
+      role: "ICT Director",
+      summary:
+        "Deputy Director – MIS at the Public Procurement Authority (PPA), responsible for project management and IT/e-procurement support. Lead facilitator for GHANEPS with extensive experience in network administration, systems integration, and training over 7,800 public procurement officers and suppliers.",
+      expertise: [
+        "Electronic Government Procurement (e-GP)",
+        "GHANEPS Implementation & Training",
+        "IT Systems & Network Administration",
+        "Database Management (Oracle, SQL)",
+        "World Bank / Development Project Management",
+        "LAN/WAN Design & Infrastructure",
+      ],
+      affiliations: ["MCIPS – Chartered Institute of Procurement and Supply", "PPA Focal Person – e-GP System", "MSc Procurement & Supply Chain Management", "BSc Computer Science"],
+      honors: [
+        "Trained 3,473 Procurement Officers on GHANEPS",
+        "Trained 4,427 Management Staff across 4,436 Public Entities",
+        "PPA Project Lead – World Bank Public Financial Management Reform Project",
+      ],
+      contact: null,
+      color: "blue",
+    },
+  ];
+
+  const teamColorMap: Record<string, { bg: string; badge: string; accent: string; dot: string }> = {
+    blue: { bg: "bg-blue-50", badge: "bg-blue-100 text-blue-800", accent: "text-blue-600", dot: "bg-blue-500" },
+    indigo: { bg: "bg-indigo-50", badge: "bg-indigo-100 text-indigo-800", accent: "text-indigo-600", dot: "bg-indigo-500" },
+    teal: { bg: "bg-teal-50", badge: "bg-teal-100 text-teal-800", accent: "text-teal-600", dot: "bg-teal-500" },
+    violet: { bg: "bg-violet-50", badge: "bg-violet-100 text-violet-800", accent: "text-violet-600", dot: "bg-violet-500" },
+    cyan: { bg: "bg-cyan-50", badge: "bg-cyan-100 text-cyan-800", accent: "text-cyan-600", dot: "bg-cyan-500" },
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
@@ -221,6 +356,12 @@ export default function ProcobizWebsite() {
                 className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
               >
                 Services
+              </button>
+              <button
+                onClick={() => scrollToSection("team")}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              >
+                Our Team
               </button>
               <button
                 onClick={() => scrollToSection("testimonials")}
@@ -280,6 +421,12 @@ export default function ProcobizWebsite() {
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium w-full text-left"
               >
                 Services
+              </button>
+              <button
+                onClick={() => scrollToSection("team")}
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium w-full text-left"
+              >
+                Our Team
               </button>
               <button
                 onClick={() => scrollToSection("testimonials")}
@@ -476,7 +623,7 @@ export default function ProcobizWebsite() {
               Are you curious about how we can assist in elevating your BUSINESS
               to success and/or improve your procurement activities to ensure
               value addition? We offer an initial consultation where we will
-              discuss your perculiar needs and potential strategies. This
+              discuss your peculiar needs and potential strategies. This
               no-obligation session lets you explore our offerings before making
               any commitments.
             </p>
@@ -506,6 +653,108 @@ export default function ProcobizWebsite() {
           </div>
         </div>
         
+      </section>
+
+      {/* Team Section */}
+      <section id="team" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <Badge className="mb-4 bg-blue-100 text-blue-800 hover:bg-blue-200">
+              The People Behind Procobiz
+            </Badge>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Meet Our Team
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Our strength lies in our people; a network of seasoned professionals across procurement, supply chain, data analytics, ICT, and business consultancy, united by a shared commitment to delivering excellence.
+            </p>
+          </div>
+
+          <div className="space-y-12">
+            {teamMembers.map((member, index) => {
+              const colors = teamColorMap[member.color];
+              return (
+                <div
+                  key={index}
+                  className="rounded-2xl border border-gray-100 shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+                >
+                  <div className={`${colors.bg} px-8 py-6 border-b border-gray-100`}>
+                    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                      <div className="flex items-start gap-4">
+                        <div className={`w-14 h-14 rounded-full ${colors.dot} flex items-center justify-center text-white text-xl font-bold flex-shrink-0`}>
+                          {member.name.split(" ").map((n: string) => n[0]).slice(0, 2).join("")}
+                        </div>
+                        <div>
+                          <h3 className="text-2xl font-bold text-gray-900">{member.name}</h3>
+                          <p className={`text-sm font-medium ${colors.accent} mb-1`}>{member.credentials}</p>
+                          <p className="text-gray-700 font-semibold">{member.role}</p>
+                        </div>
+                      </div>
+                      {member.contact && (
+                        <div className="flex flex-col gap-1 text-sm text-gray-600 md:text-right">
+                          {member.contact.phone && (
+                            <div className="flex items-center gap-2 md:justify-end">
+                              <Phone className="h-4 w-4 text-gray-400 flex-shrink-0" />
+                              <span>{member.contact.phone}</span>
+                            </div>
+                          )}
+                          {member.contact.email && (
+                            <div className="flex items-center gap-2 md:justify-end">
+                              <Mail className="h-4 w-4 text-gray-400 flex-shrink-0" />
+                              <span>{member.contact.email}</span>
+                            </div>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  <div className="px-8 py-6 grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div className="lg:col-span-1">
+                      <p className="text-gray-600 leading-relaxed text-sm">{member.summary}</p>
+                      {member.affiliations.length > 0 && (
+                        <div className="mt-4">
+                          <h5 className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Affiliations</h5>
+                          <div className="flex flex-wrap gap-2">
+                            {member.affiliations.map((aff: string, i: number) => (
+                              <span key={i} className={`inline-block text-xs px-2 py-1 rounded-full ${colors.badge} font-medium`}>
+                                {aff}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+
+                    <div>
+                      <h5 className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Areas of Expertise</h5>
+                      <ul className="space-y-2">
+                        {member.expertise.map((skill: string, i: number) => (
+                          <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
+                            <CheckCircle className={`h-4 w-4 mt-0.5 flex-shrink-0 ${colors.accent}`} />
+                            {skill}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h5 className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Key Achievements</h5>
+                      <ul className="space-y-2">
+                        {member.honors.map((honor: string, i: number) => (
+                          <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
+                            <Star className={`h-4 w-4 mt-0.5 flex-shrink-0 fill-current ${colors.accent}`} />
+                            {honor}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </section>
 
       {/* Testimonials Section */}
@@ -617,8 +866,8 @@ export default function ProcobizWebsite() {
               Get In Touch
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Partner with us to strategise for home-made solutions to grow your
-              company and or improve your procurment fuctional skills/activities
+              Partner with us to strategize for home-made solutions to grow your
+              company and or improve your procurement functional skills/activities
               to world class level. Ready to transform your business? Contact us
               today to discuss how we can help you achieve your goals.
             </p>
@@ -816,6 +1065,14 @@ export default function ProcobizWebsite() {
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Services
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() => scrollToSection("team")}
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    Our Team
                   </button>
                 </li>
                 <li>
